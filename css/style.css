@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --logo-font: Clicker Script;
+    --primary-font: Playfair Display;
+    --color: #603809;
+    --card-text:#1E1E1E;
+    --button: #F9C06A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-container{
+    background: url(../image/hero-image.jpg);
+    /* background-color: #aaa; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+nav{
+    margin: 0px 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo p{
+    font-family: var(--logo-font);
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    font-family: var(--primary-font);
+    font-size: 14px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-btn{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-btn button{
+    width: 100px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background-color: var(--button);
+    color: var(--card-text);
+}
+
+.hero-main{
+    margin: 70px 0px 93px 93px;
+    font-family: var(--primary-font);
+}
+.hero-title p{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.hero-main-text p{
+    font-size: 220px;
+    font-family: var(--logo-font);
+    color: #FFFFFF;
+}
+
+.hero-des{
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 500px;
+}
+
+.hero-button{
+    margin-top: 20px;
+}
+
+.hero-button a{
+    text-decoration: none;
+}
+
+.hero-button a button{
+    width: 134px;
+    height: 48px;
+    background-color: var(--button);
+    border: none;
+    border-radius: 24px;
+    color: var(--card-text);
+    font-weight: bold;
+}
+
+.discover{
+    margin: 0px 93px;
+    margin-bottom: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+    font-family: var(--primary-font);
+}
+
+.discover-content-heading{
+    margin-bottom: 29px;
+}
+
+.discover-content-heading p{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--color);
+}
+
+.discover-content-text{
+    margin-bottom: 29px;
+    width: 95%;
+}
+
+.discover-content-text p{
+    font-size: 20px;
+    color: #707070;
+}
+
+.discover-content-button button{
+    width: 134px;
+    height: 48px;
+    color: var(--card-text);
+    border: none;
+    border-radius: 24px;
+    background-color: var(--button);
+    font-weight: bold;
+}
+
+.discover-image img{
+    width: 500px;
+    height: 484px;
+}
+
+.discover-coffee-blast-image1{
+    position: absolute;
+    top: -43%;
+    left: 0%;
+}
+
+.coffee-cards-container-outer{
+    position: relative;
+    margin-bottom: 82px;
+}
+
+.coffee-cards-container{
+    margin: 0px 93px;
+    margin-bottom: 82px;
+    font-family: var(--primary-font);
+}
+
+.coffee-cards-heading p{
+    font-size: 54px;
+    font-weight: bold;
+    color: var(--color);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.coffee-cards-sub-heading p {
+    text-align: center;
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.coffee-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.coffee-card{
+    border: 1px solid #FDE2B9;
+    background-color: #FFF9F1;
+    width: 280px;
+    height: 364px;
+    text-align: center;
+    position: relative;
+}
+
+.coffee-card-image img{
+    height: 222px;
+}
+
+.coffee-card-head{
+    margin-top: 14px;
+}
+
+.coffee-card-head p{
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color);
+}
+
+.coffee-card-text{
+margin-bottom: 6px;
+}
+
+.coffee-card-text p{
+    color: var(--card-text);
+}
+
+.coffee-card-price{
+    margin-bottom: 18px;
+}
+
+.coffee-card-price p{
+    font-size: 18px;
+    color: var(--color);
+    font-weight: bold;
+}
+
+.coffee-card-button{
+    position: absolute;
+    bottom: -7%;
+    left: 73px;
+}
+
+.coffee-card-button button{
+    width: 134px;
+    height: 48px;
+    background-color: var(--button);
+    border: none;
+    border-radius: 24px;
+    color: var(--card-text);
+    font-weight: bold;
+}
+
+
+.why-different-outer{
+    position: relative;
+    margin-bottom: 82px;
+}
+
+.why-different-coffee-blast-image2{
+    position: absolute;
+    top: -25%;
+    right: 0%;
+}
+
+.why-different{
+    margin: 0px 93px;
+    font-family: var(--primary-font);
+}
+
+.why-different-head{
+    margin-bottom: 16px;
+}
+
+.why-different-head p{
+    font-size: 54px;
+    color: var(--color);
+    font-weight: bold;
+    text-align: center;
+}
+
+.why-different-sub-head{
+    margin-bottom: 32px;
+}
+
+.why-different-sub-head p{
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+}
+
+.why-different-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.why-different-card{
+    width: 280px;
+    height: 284px;
+    border: 1px solid #FDE2B9;
+    background-color: #FFF9F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-different-card-1{
+    border: 1px solid #FDE2B9;
+    background-color: #FFEED8;
+}
+
+.why-different-card-image img{
+    height: 88px;
+    width: 88px;
+    margin-bottom: 25px;
+}
+
+.why-different-card-head p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color);
+    margin-bottom: 8px;
+}
+
+.why-different-card-text p{
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+}
+
+.why-different-text{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.why-different-text p:first-child{
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+}
+
+.why-different-text p:last-child{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color);
+    text-align: center;
+}
+
+.why-different-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-different-button button{
+    width: 134px;
+    height: 48px;
+    font-weight: bold;
+    background-color: var(--button);
+    color: var(--card-text);
+    border: none;
+    border-radius: 24px;
+}
+
+.banner{
+    font-family: var(--primary-font);
+    /* background: linear-gradient( to right, #000, #ccc); */
+    background: url(../image/background-2.png) no-repeat;
+    background-size: cover;
+    height: 574px;
+    margin-bottom: 82px;
+    position: relative;
+}
+
+.banner-content{
+    width: 575px;
+    position: absolute;
+    top: 135px;
+    left: 93px;
+}
+
+.banner-text,
+.banner-head{
+    margin-bottom: 22px;
+}
+
+.banner-head p{
+    font-size: 54px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.banner-text p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.banner-button button{
+    width: 134px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    background-color: var(--button);
+    color: var(--card-text);
+    font-weight: bold;
+}
+
+.banner-image-1{
+    position: absolute;
+    bottom: 53px;
+    right: 173px;
+    z-index: 1;
+}
+
+.banner-image-2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
